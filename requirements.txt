@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+transformers
+torch
+faiss-cpu
+sqlalchemy
+requests
+prometheus-client
+redis
+mkdocs-material
+sentence-transformers

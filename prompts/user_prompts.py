@@ -1,0 +1,8 @@
+LANGUAGE_GENERATION_PROMPT = "Generate a text passage about: {topic}"
+CODE_USER_PROMPT = "Write a {language} function to: {task}"
+SENTIMENT_ANALYSIS_PROMPT = "Analyze the sentiment of the following text: {text}"
+ENTITY_RECOGNITION_PROMPT = "Identify named entities in the following text: {text}"
+TASK_MANAGEMENT_PROMPT = "{action} the task named: {task_name}"
+EMBEDDING_USER_PROMPT = "Generate an embedding for the following text: {text}"
+PLANNING_USER_PROMPT = "Create a detailed, step-by-step plan for the following task: {task}"
+REVIEW_USER_PROMPT = "Write a review of the following product: {product}"

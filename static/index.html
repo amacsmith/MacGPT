@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multi-Agent AI Interface</title>
+    <script src="https://unpkg.com/htmx.org@1.9.6"></script>
+</head>
+<body>
+    <h1>Multi-Agent AI Interface</h1>
+    <select id="requestType">
+        <option value="language">Language Task</option>
+        <option value="analysis">Analysis Task</option>
+        <option value="code">Code Task</option>
+        <option value="task">Automation Task</option>
+    </select>
+    <input type="text" id="content" placeholder="Enter your request">
+    <button hx-post="/process" 
+            hx-trigger="click" 
+            hx-target="#result"
+            hx-include="#requestType,#content">
+        Process
+    </button>
+    <div id="result"></div>
+</body>
+</html>

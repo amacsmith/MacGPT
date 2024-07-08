@@ -1,0 +1,20 @@
+site_name: MAC AI Interface Docs
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: orange
+    accent: green
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Structure: structure.md
+  - Configuration: configuration.md
+  - Prompts: prompts.md
+  - Tools: tools.md
+  - RAG: rag.md
+  - Vector: vector_store.md
+  - Agents: agents.md
+  - Workflows: workflow.md
+  - Functions: functions.md
+  - API Reference: api.md
